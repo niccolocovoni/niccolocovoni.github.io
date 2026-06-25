@@ -90,6 +90,8 @@ Modifiche effettuate:
 - aggiornato `github_profile_README.md` con link diretti a `Talks` e al PDF del CV.
 - rimossi i prefissi ridondanti `Workshop:` e `Invited talk:` da due voci degli invited talks.
 - rimosso il nome dalla navbar per evitare che vada su due righe; le voci di navigazione sono ora centrate.
+- aggiornata la frase About da `I work on...` a `I investigate...`.
+- aggiornato il footer con `Built with HTML & CSS · Last updated June 2026`.
 
 Verifiche eseguite:
 
