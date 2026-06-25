@@ -75,6 +75,8 @@ Modifiche effettuate:
 - aggiunto link alla pagina CI2: `https://sankio23.github.io/icts-website/research/ci2.html`.
 - aggiunta voce navbar `CI²`, etichetta breve per mantenere compatta la navigazione mobile.
 - aggiornata la bozza del README del profilo GitHub con CI2.
+- centrato il bottone `Visit CI²` nella sezione Research Coordination.
+- rimossa la freccia verso il basso dal bottone `Download CV`.
 
 Verifiche eseguite:
 
