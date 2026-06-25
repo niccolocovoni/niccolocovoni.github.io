@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Niccolò Covoni</title>
+<style>
+  :root{
+    --bg:#000000;
+    --fg:#f4f4f4;
+    --muted:#9a9a9a;
+    --hair:#2a2a2a;
+    --line:#f4f4f4;
+    --maxw:760px;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--fg);
+    font-family:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
+    line-height:1.7;
+    font-size:18px;
+    -webkit-font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
+  }
+  a{color:var(--fg);text-decoration:none;border-bottom:1px solid var(--fg);transition:opacity .15s;}
+  a:hover{opacity:.55;}
+
+  /* ---------- top navigation ---------- */
+  header.topbar{
+    position:sticky;top:0;z-index:20;
+    background:rgba(0,0,0,.85);
+    backdrop-filter:saturate(180%) blur(8px);
+    border-bottom:1px solid var(--hair);
+  }
+  nav.top{
+    max-width:var(--maxw);margin:0 auto;
+    display:flex;align-items:center;justify-content:space-between;
+    padding:1rem 1.6rem;
+  }
+  nav.top .brand{
+    font-family:"Helvetica Neue",Arial,sans-serif;
+    font-weight:700;letter-spacing:.02em;
+    font-size:.95rem;border:none;
+  }
+  nav.top .links{display:flex;gap:1.5rem;}
+  nav.top .links a{
+    font-family:"Helvetica Neue",Arial,sans-serif;
+    font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;
+    border:none;color:var(--muted);
+  }
+  nav.top .links a:hover{color:var(--fg);opacity:1;}
+  @media(max-width:560px){
+    nav.top{flex-direction:column;gap:.6rem;}
+    nav.top .links{gap:1.1rem;flex-wrap:wrap;justify-content:center;}
+  }
+
+  main{max-width:var(--maxw);margin:0 auto;padding:0 1.6rem;}
+
+  /* ---------- masthead ---------- */
+  .masthead{
+    display:flex;flex-direction:column;align-items:center;
+    text-align:center;padding:4rem 0 1rem;
+  }
+  .masthead .photo{
+    width:196px;height:196px;border-radius:50%;
+    object-fit:cover;filter:grayscale(100%) contrast(1.02);
+    border:1px solid var(--hair);
+    box-shadow:0 6px 30px rgba(255,255,255,.08);
+  }
+  .masthead h1{
+    font-size:2.15rem;font-weight:600;letter-spacing:-.01em;
+    margin:1.6rem 0 .2rem;
+  }
+  .masthead .role{
+    font-family:"Helvetica Neue",Arial,sans-serif;
+    font-size:.78rem;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--muted);
+  }
+
+  /* ---------- sections ---------- */
+  section{padding:3rem 0;border-top:1px solid var(--hair);}
+  #about{border-top:none;padding-top:2.4rem;}
+  .sec-title{
+    font-family:"Helvetica Neue",Arial,sans-serif;
+    font-size:.74rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;
+    color:var(--fg);margin:0 0 1.8rem;
+    display:flex;align-items:center;gap:.9rem;
+  }
+  .sec-title::after{content:"";flex:1;height:1px;background:var(--hair);}
+
+  p{margin:0 0 1.1rem;}
+  main section p{text-align:justify;text-justify:inter-word;}
+  .masthead p,
+  #cv p,
+  #contact p{text-align:center;}
+  .lead{font-size:1.16rem;line-height:1.6;}
+  .subtle{color:var(--muted);}
+
+  /* ---------- research / lists ---------- */
+  .group{margin-bottom:2.2rem;}
+  .group h3{
+    font-family:"Helvetica Neue",Arial,sans-serif;
+    font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;
+    color:var(--muted);margin:0 0 1rem;font-weight:700;
+  }
+  ol.refs{list-style:none;counter-reset:r;padding:0;margin:0;}
+  ol.refs li{
+    counter-increment:r;
+    position:relative;
+    padding:0 0 1.25rem 2.2rem;
+    font-size:.98rem;line-height:1.55;
+  }
+  ol.refs li::before{
+    content:counter(r);
+    position:absolute;left:0;top:.05rem;
+    font-family:"Helvetica Neue",Arial,sans-serif;
+    font-size:.7rem;font-weight:700;color:var(--muted);
+    width:1.4rem;height:1.4rem;border:1px solid var(--hair);border-radius:50%;
+    display:flex;align-items:center;justify-content:center;
+  }
+  ol.refs li cite{font-style:italic;}
+  ol.refs li .venue{color:var(--muted);}
+
+
+  .cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem;margin:0 0 2.2rem;}
+  .card{border:1px solid var(--hair);padding:1.05rem 1.1rem;min-height:120px;}
+  .card h3{font-family:"Helvetica Neue",Arial,sans-serif;font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--fg);margin:0 0 .65rem;font-weight:700;}
+  .card p{font-size:.94rem;line-height:1.55;color:var(--muted);margin:0;text-align:left;}
+  @media(max-width:640px){
+    .cards{grid-template-columns:1fr;}
+    main section p{text-align:left;}
+    #cv p,
+    #contact p{text-align:center;}
+  }
+
+  /* ---------- teaching ---------- */
+  .tl{position:relative;margin:0;padding:0 0 0 1.4rem;border-left:1px solid var(--hair);}
+  .tl .year{
+    font-family:"Helvetica Neue",Arial,sans-serif;
+    font-weight:700;letter-spacing:.04em;font-size:.95rem;
+    margin:1.6rem 0 .5rem;position:relative;
+  }
+  .tl .year:first-child{margin-top:0;}
+  .tl .year::before{
+    content:"";position:absolute;left:-1.83rem;top:.45rem;
+    width:8px;height:8px;border-radius:50%;background:var(--fg);
+  }
+  .tl .item{margin:0 0 .9rem;}
+  .tl .item .course{font-style:italic;}
+  .tl .item .where{display:block;color:var(--muted);font-size:.92rem;}
+
+  /* ---------- buttons / contact ---------- */
+  .btn{
+    display:inline-block;border:1px solid var(--fg);border-bottom:1px solid var(--fg);
+    padding:.6rem 1.3rem;
+    font-family:"Helvetica Neue",Arial,sans-serif;
+    font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;
+  }
+  .btn:hover{background:var(--fg);color:var(--bg);opacity:1;}
+  .links-row{
+    display:flex;flex-wrap:wrap;gap:1.1rem;margin-top:1.8rem;
+    justify-content:center;
+  }
+  .links-row a{
+    width:46px;height:46px;border-radius:50%;
+    border:1px solid var(--hair);
+    display:flex;align-items:center;justify-content:center;
+    color:var(--fg);position:relative;overflow:hidden;
+    opacity:0;transform:translateY(10px);
+    animation:rise .5s cubic-bezier(.22,1,.36,1) forwards;
+    transition:color .35s cubic-bezier(.22,1,.36,1),
+               border-color .35s cubic-bezier(.22,1,.36,1),
+               transform .35s cubic-bezier(.22,1,.36,1),
+               box-shadow .35s cubic-bezier(.22,1,.36,1);
+  }
+  /* white fill that wipes up from the bottom on hover */
+  .links-row a::before{
+    content:"";position:absolute;inset:0;z-index:0;
+    background:var(--fg);
+    transform:translateY(101%);
+    transition:transform .35s cubic-bezier(.22,1,.36,1);
+  }
+  .links-row a svg{width:20px;height:20px;display:block;position:relative;z-index:1;
+    transition:transform .35s cubic-bezier(.22,1,.36,1);}
+  .links-row a:hover{
+    color:var(--bg);border-color:var(--fg);opacity:1;
+    transform:translateY(-3px);
+    box-shadow:0 8px 22px rgba(255,255,255,.14);
+  }
+  .links-row a:hover::before{transform:translateY(0);}
+  .links-row a:hover svg{transform:scale(1.08);}
+  .links-row a:active{transform:translateY(-1px) scale(.96);}
+  /* staggered entrance */
+  .links-row a:nth-child(1){animation-delay:.05s;}
+  .links-row a:nth-child(2){animation-delay:.12s;}
+  .links-row a:nth-child(3){animation-delay:.19s;}
+  .links-row a:nth-child(4){animation-delay:.26s;}
+  .links-row a:nth-child(5){animation-delay:.33s;}
+  @keyframes rise{to{opacity:1;transform:translateY(0);}}
+
+  footer{
+    border-top:1px solid var(--hair);text-align:center;
+    padding:2.4rem 1.6rem;
+    font-family:"Helvetica Neue",Arial,sans-serif;
+    font-size:.72rem;letter-spacing:.1em;color:var(--muted);
+  }
+  ::selection{background:#f4f4f4;color:#000;}
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <nav class="top">
+    <a class="brand" href="#about">Niccolò Covoni</a>
+    <div class="links">
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="#publications">Publications</a>
+      <a href="#visiting">Visits</a>
+      <a href="#teaching">Teaching</a>
+      <a href="#cv">CV</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <!-- ===== MASTHEAD ===== -->
+  <div class="masthead">
+    <img class="photo"
+         src="https://niccolocovoni.wordpress.com/wp-content/uploads/2024/09/foto_profilo-edited.jpg"
+         alt="Niccolò Covoni" />
+    <h1>Niccolò Covoni</h1>
+    <div class="role">Researcher at Sophia University Institute &middot; Philosophy of Physics &middot; Philosophy of Information</div>
+  </div>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about">
+    <p class="lead">
+      I am a researcher at the <a href="https://www.sophiauniversity.org/" target="_blank" rel="noopener">Sophia University Institute</a>
+      and a PhD candidate at the <a href="https://www.uniurb.it/" target="_blank" rel="noopener">University of Urbino Carlo Bo</a>
+      (Research Methods in Science and Technology program) and at the Institute of Philosophy (ISFI) of the
+      <a href="https://www.usi.ch/en/education/master/philosophy" target="_blank" rel="noopener">Università della Svizzera italiana</a>
+      (USI) in Lugano.
+    </p>
+    <p>
+      My research lies at the intersection of <strong>Philosophy of Physics</strong>, <strong>Philosophy of Information</strong>,
+      and <strong>Metaphysics of Science</strong>. I work on the conceptual and formal foundations of information in physics,
+      with particular attention to entropy, quantum information, Relational Quantum Mechanics, and the ontological status
+      of physical correlations.
+    </p>
+    <p>
+      My PhD project is supervised by Prof. Claudio Calosi and Prof. Vincenzo Fano. It investigates whether a physically
+      significant notion of information can be articulated across thermodynamics, statistical mechanics, Shannon information
+      theory, and quantum theory, focusing especially on Gibbs, Shannon, and von Neumann entropy.
+    </p>
+    <p>
+      I was a visiting student at the Rotman Institute of Philosophy at Western University as part of the QISS
+      (Quantum Information Structure of Spacetime) project, under the supervision of Francesca Vidotto. I have also been
+      a visiting student at the Faculty of Mathematics and Computer Science at the University of Łódź, under the supervision
+      of Hanna Podsędkowska. More recently, I was an FTG Visiting Fellow at the Foundations of Thermodynamics Group at
+      Nanyang Technological University (NTU), hosted by Eugene Y. S. Chua.
+    </p>
+    <p>
+      I hold a Bachelor’s Degree in
+      <a href="https://www.cfs.unipi.it/orientamento-e-didattica/corsi-di-laurea-triennale/filosofia/" target="_blank" rel="noopener">Philosophy</a>
+      from the University of Pisa, with a thesis on the foundations of Quantum Logic, and a Master’s Degree in
+      <a href="https://www.lmlogica.unifi.it/" target="_blank" rel="noopener">Logic, Philosophy and History of Science</a>
+      from the University of Florence, with a thesis on Quantum Information.
+    </p>
+  </section>
+
+  <!-- ===== RESEARCH ===== -->
+  <section id="research">
+    <h2 class="sec-title">Research</h2>
+    <p class="lead">
+      My work investigates information as a physical and philosophical concept, with particular attention to entropy,
+      quantum theory, and the relational structure of physical reality.
+    </p>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Philosophy of Information</h3>
+        <p>Conceptual and ontological questions concerning information, entropy, correlations, and physical representation.</p>
+      </div>
+      <div class="card">
+        <h3>Quantum Foundations</h3>
+        <p>Relational Quantum Mechanics, quantum information, measurement, probability, and Segal entropy.</p>
+      </div>
+      <div class="card">
+        <h3>Entropy and Thermodynamics</h3>
+        <p>Foundational issues in thermodynamics, statistical mechanics, Shannon entropy, and von Neumann entropy.</p>
+      </div>
+      <div class="card">
+        <h3>Metaphysics of Science</h3>
+        <p>Scientific realism, perspectivism, relational ontology, models, abstraction, and fundamentality.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PUBLICATIONS ===== -->
+  <section id="publications">
+    <h2 class="sec-title">Publications</h2>
+
+    <div class="group">
+      <h3>Preprints</h3>
+      <ol class="refs">
+        <li>
+          Covoni, N., &amp; Rovelli, C. <cite>Tractatus Quanticus</cite>.
+          <a href="https://arxiv.org/abs/2512.06034" target="_blank" rel="noopener">arXiv:2512.06034</a>
+        </li>
+      </ol>
+    </div>
+
+    <div class="group">
+      <h3>Journal Articles, Book Chapters, and Proceedings</h3>
+      <ol class="refs">
+        <li>
+          Covoni, N., &amp; Sanchioni, M. (2026). <cite>Relational Information — Towards a New Kind of
+          Information in Quantum Mechanics</cite>. <span class="venue">Foundations of Physics, 56(14).</span>
+          <a href="https://doi.org/10.1007/s10701-026-00916-y" target="_blank" rel="noopener">DOI</a>
+        </li>
+        <li>
+          Covoni, N., Fano, V., &amp; Sanchioni, M. (2026). <cite>Relational Quantum Mechanics and (Soft)
+          Perspectivism</cite>. <span class="venue">Foundations of Physics, 56(6).</span>
+          <a href="https://doi.org/10.1007/s10701-025-00906-6" target="_blank" rel="noopener">DOI</a>
+        </li>
+        <li>
+          Covoni, N., Marcacci, F., &amp; Tarozzi, G. (2025). <cite>From Neo-Idealistic Historicism to
+          Geymonat’s Materialistic and Agazzi’s Objectivistic Realism: The Roots of the Italian Philosophy of
+          Science</cite>. <span class="venue">Bioethics, 11(2), 129–140.</span>
+        </li>
+        <li>
+          Galli, G., &amp; Covoni, N. (2025). <cite>A (Quasi-)Mathematical Theory of Public Language</cite>.
+          <span class="venue">Contributions of the Austrian Ludwig Wittgenstein Society.</span>
+        </li>
+        <li>
+          Covoni, N., &amp; Tarozzi, G. (2025). <cite>Tra realismo e neopositivismo: l’eredità di Ludovico
+          Geymonat e Evandro Agazzi nella filosofia della scienza italiana</cite>.
+          <span class="venue">In <em>Bíos theôrêtikós e bíos praktikós. Studi offerti a Fabio Minazzi per i suoi
+          settant’anni.</em> Mimesis: Italy. ISBN 979-12-22-32433-3.</span>
+        </li>
+        <li>
+          Covoni, N. (2024). <cite>From Shannon to von Neumann: A Partial Understanding of Information</cite>.
+          <span class="venue">In Atti del XLIV Congresso Nazionale Sisfa – Firenze 2024 (2025), 43_10, pp.
+          89–94.</span>
+          <a href="https://doi.org/10.6093/978-88-6887-352-3-10" target="_blank" rel="noopener">DOI</a>
+        </li>
+        <li>
+          Covoni, N., Macchia, G., Pietrini, D., &amp; Tarozzi, G. (2024). <cite>Non-standard realistic models
+          of quantum phenomena and new forms of complementarity</cite>.
+          <span class="venue">In Proceedings of AIPS Academy, Brussels.</span>
+          <a href="https://resources.illc.uva.nl/CRAIPS/uploaded_files/uploadlibraryitem/cr.aips.3.covonietal.pdf" target="_blank" rel="noopener">PDF</a>
+        </li>
+        <li>
+          Covoni, N., Corti, A., &amp; Fano, V. (2024). <cite>A Model-based Form of Naturalised
+          Metaphysics</cite>. <span class="venue">Revista Portuguesa de Filosofia, 80(4), 783–818.</span>
+          <a href="https://doi.org/10.17990/RPF/2024_80" target="_blank" rel="noopener">DOI</a>
+        </li>
+        <li>
+          Covoni, N., &amp; Tarozzi, G. (2024). <cite>Empiricism and Realism Reconciled in Agazzi’s Conception
+          of Scientific Objectivity</cite>.
+          <span class="venue">Distinctio: Journal of Intersubjective Studies, 3(1), 47–55.</span>
+          <a href="https://doi.org/10.56550/d.3.1.2" target="_blank" rel="noopener">DOI</a>
+        </li>
+        <li>
+          Covoni, N., &amp; Zipoli Caiani, S. (2024). <cite>Levels of Abstraction as Family Resemblances from
+          the Classical to the Quantum Mechanical Representation of Reality</cite>.
+          <span class="venue">In Proceedings of the 45th International Wittgenstein Symposium 2024, <em>Facets of
+          Reality — Contemporary Debates.</em></span>
+        </li>
+        <li>
+          Ciardi, M., &amp; Covoni, N. (2024). <cite>La profezia di Ada Lovelace. L’intelligenza artificiale
+          prima di Turing</cite>.
+          <span class="venue">In <em>Filosofia dell’intelligenza artificiale. Sfide etiche e teoriche.</em>
+          Bologna: Il Mulino. ISBN 978-88-15-38737-0.</span>
+        </li>
+        <li>
+          Ciardi, M., &amp; Covoni, N. (2023). <cite>Dalla mano per calcolare ai calcolatori per la mano.
+          Sull’origine del pensiero numerico</cite>.
+          <span class="venue">Firenze: Guide Museo e Istituto Fiorentino di Preistoria.
+          ISBN 979-12-80445-06-3.</span>
+        </li>
+      </ol>
+    </div>
+
+    <div class="group">
+      <h3>Posters</h3>
+      <ol class="refs">
+        <li>
+          Covoni, N. (2025). <cite>Progress Crucial Realism</cite>.
+          <span class="venue">Poster, EPSA25 — 10th Biennial meeting of the European Philosophy of Science
+          Association, Groningen, Netherlands.</span>
+        </li>
+        <li>
+          Covoni, N. (2025). <cite>Progress Crucial Realism</cite>.
+          <span class="venue">Poster, Foundations2025 — 22nd European Conference on Foundations of Physics,
+          Gdańsk, Poland.</span>
+        </li>
+        <li>
+          Covoni, N. (2024).
+          <cite><a href="https://niccolocovoni.wordpress.com/wp-content/uploads/2024/10/poster-pics-2024.jpeg" target="_blank" rel="noopener">Shannon’s Approach to Quantum Information</a></cite>.
+          <span class="venue">Poster, 5th Ph.D. school in Foundations of Programming and Software Systems,
+          Copenhagen, Denmark.</span>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ===== VISITING POSITIONS ===== -->
+  <section id="visiting">
+    <h2 class="sec-title">Academic Visits</h2>
+    <div class="tl">
+      <div class="year">2026</div>
+      <p class="item">
+        <span class="course">FTG Visiting Fellow</span>, Foundations of Thermodynamics Group, Nanyang Technological University, Singapore
+        <span class="where">Hosted by Eugene Y. S. Chua</span>
+      </p>
+      <p class="item">
+        <span class="course">Visiting Student</span>, Faculty of Mathematics and Computer Science, University of Łódź, Poland
+        <span class="where">Supervised by Hanna Podsędkowska</span>
+      </p>
+
+      <div class="year">2025</div>
+      <p class="item">
+        <span class="course">Visiting Student</span>, Rotman Institute of Philosophy, Western University, Canada
+        <span class="where">QISS — Quantum Information Structure of Spacetime project; supervised by Francesca Vidotto</span>
+      </p>
+
+      <div class="year">2024</div>
+      <p class="item">
+        <span class="course">Visiting Student</span>, University of Cagliari, Cagliari, Italy
+        <span class="where">Supervised by Roberto Giuntini and Giuseppe Sergioli</span>
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== TEACHING ===== -->
+  <section id="teaching">
+    <h2 class="sec-title">Teaching</h2>
+    <div class="tl">
+      <div class="year">2026–2027</div>
+      <p class="item">
+        <span class="course">Lugano Philosophy Colloquia</span>, Università della Svizzera italiana (USI), Lugano, Switzerland
+        <span class="where">Teaching activity with final examination</span>
+      </p>
+      <p class="item">
+        <span class="course">Philosophy of Language</span>, Sophia University Institute, Loppiano, Italy
+        <span class="where">Course on truth and meaning: Frege, Russell, Wittgenstein, Tarski, and Quine</span>
+      </p>
+      <p class="item">
+        <span class="course">Logic, Game Theory and Happiness</span>, Sophia University Institute, Loppiano, Italy
+        <span class="where">Co-taught with Marco Sanchioni</span>
+      </p>
+
+      <div class="year">2025</div>
+      <p class="item">
+        <span class="course">Philosophy of Language</span>, MA Philosophy, Sophia University Institute,
+        Loppiano, Italy
+        <span class="where">Teaching Assistant of M. Sanchioni</span>
+      </p>
+
+      <div class="year">2024</div>
+      <p class="item">
+        <span class="course">Epistemology</span>, MA Philosophy of Information, UNIURB, Urbino, Italy
+        <span class="where">Teaching Assistant of G. Tarozzi</span>
+      </p>
+      <p class="item">
+        <span class="course">Introduction to Edutainment</span>, Lecture for master students of Communication
+        Science, in the course of S. Zipoli Caiani, UNIFI, Florence, Italy
+      </p>
+
+      <div class="year">2023</div>
+      <p class="item">
+        <span class="course">Introduction to Description Logic</span>, Lecture for master students of
+        Philosophy, in the course of P. Graziani, UNIURB, Urbino, Italy
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== CV ===== -->
+  <section id="cv">
+    <h2 class="sec-title">Curriculum Vitae</h2>
+    <p class="subtle">A full academic CV is available as a PDF.</p>
+    <p>
+      <a class="btn" href="https://niccolocovoni.wordpress.com/wp-content/uploads/2025/09/academic_cv.pdf" target="_blank" rel="noopener">Download CV ↓</a>
+    </p>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact">
+    <h2 class="sec-title">Contact</h2>
+    <p>
+      Reach me via email at
+      <a href="mailto:niccolo.covoni@gmail.com">niccolo.covoni@gmail.com</a>.
+    </p>
+    <div class="links-row">
+      <a href="mailto:niccolo.covoni@gmail.com" aria-label="Email" title="Email">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="2.5" y="4.5" width="19" height="15" rx="2"/>
+          <path d="M3 6l9 7 9-7"/>
+        </svg>
+      </a>
+      <a href="https://x.com/CovoniNiccolo" target="_blank" rel="noopener" aria-label="X / Twitter" title="X / Twitter">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+          <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24h-6.66l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231 5.45-6.231Zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77Z"/>
+        </svg>
+      </a>
+      <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Facebook" title="Facebook">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+          <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073Z"/>
+        </svg>
+      </a>
+      <a href="https://bsky.app/profile/covoni.bsky.social" target="_blank" rel="noopener" aria-label="Bluesky" title="Bluesky">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+          <path d="M12 10.8C10.9 8.6 7.9 4.6 5.1 2.9 3.9 2.1 2 1.5 2 3.7c0 .9.5 6.5.8 7.4.9 2.6 3.4 3.2 5.6 2.9-3.3.5-6.2 1.7-2.4 5.9 4.2 4.4 5.4-.9 6-3.6.6 2.7 1.3 7.8 5.7 3.6 3.6-3.6 1-5.4-2.3-5.9 2.2.3 4.7-.3 5.6-2.9.3-.9.8-6.5.8-7.4 0-2.2-1.9-1.6-3.1-.8C16.1 4.6 13.1 8.6 12 10.8Z"/>
+        </svg>
+      </a>
+      <a href="https://scholar.google.com/citations?user=5NWfHK4AAAAJ&amp;hl=it" target="_blank" rel="noopener" aria-label="Google Scholar" title="Google Scholar">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+          <path d="M12 3 1 8l11 5 11-5-11-5Zm-7 8.18V15l7 3 7-3v-3.82l-7 3.18-7-3.18Z"/>
+        </svg>
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  © Niccolò Covoni
+</footer>
+
+</body>
+</html>
