@@ -18,10 +18,9 @@ Il sito e' una pagina personale accademica statica in HTML/CSS.
 
 File principali presenti nella cartella:
 
-- `index_updated.html`: versione precedente piu' completa.
-- `index_updated_v2.html`: versione intermedia piu' snella.
-- `index_v3.html`: versione 3 attuale, creata a partire dalla chat condivisa.
 - `index.html`: versione pubblicata online e file principale del sito.
+- `stato_dei_lavori.md`: memoria locale del progetto.
+- `github_profile_README.md`: bozza usata come README del profilo GitHub.
 
 ## Ultime modifiche
 
@@ -68,10 +67,11 @@ Modifiche effettuate:
 - creato repository profilo pubblico `https://github.com/niccolocovoni/niccolocovoni`.
 - pubblicato `github_profile_README.md` come `README.md` del profilo GitHub.
 - eliminate le vecchie copie locali non tracciate `index_updated.html` e `index_updated_v2.html`.
+- eliminata la copia locale `index_v3.html`; `index.html` resta l'unico HTML ufficiale del sito.
 
 Verifiche eseguite:
 
-- apertura locale tramite server `http://localhost:8000/index_v3.html`;
+- apertura locale tramite server `http://localhost:8000/index_v3.html` durante la fase V3;
 - controllo sezioni presenti: About, Research, Publications, Academic Visits, Teaching, CV, Contact;
 - controllo ancore della navbar;
 - controllo resa desktop;
