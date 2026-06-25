@@ -21,6 +21,7 @@ File principali presenti nella cartella:
 - `index_updated.html`: versione precedente piu' completa.
 - `index_updated_v2.html`: versione intermedia piu' snella.
 - `index_v3.html`: versione 3 attuale, creata a partire dalla chat condivisa.
+- `index.html`: versione pubblicata online e file principale del sito.
 
 ## Ultime modifiche
 
@@ -66,6 +67,7 @@ Modifiche effettuate:
 - verificato che `https://niccolocovoni.github.io/` risponde con `HTTP 200`.
 - creato repository profilo pubblico `https://github.com/niccolocovoni/niccolocovoni`.
 - pubblicato `github_profile_README.md` come `README.md` del profilo GitHub.
+- eliminate le vecchie copie locali non tracciate `index_updated.html` e `index_updated_v2.html`.
 
 Verifiche eseguite:
 
