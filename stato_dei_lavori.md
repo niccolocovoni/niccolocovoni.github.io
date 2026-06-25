@@ -54,6 +54,7 @@ Modifiche effettuate:
 - inizializzato un repository Git locale;
 - creato il commit iniziale `8f8f4e8` con i file pubblicabili del sito.
 - preparata una bozza di README per il profilo GitHub nel file `github_profile_README.md`.
+- collegato il repository locale al remote `https://github.com/niccolocovoni/niccolocovoni.github.io.git`.
 
 Verifiche eseguite:
 
