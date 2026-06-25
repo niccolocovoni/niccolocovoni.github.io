@@ -57,6 +57,9 @@ Modifiche effettuate:
 - collegato il repository locale al remote `https://github.com/niccolocovoni/niccolocovoni.github.io.git`.
 - tentato il push verso GitHub; bloccato per mancanza di credenziali GitHub disponibili nella sessione (`could not read Username for 'https://github.com'`).
 - verificato che non ci sono chiavi SSH locali disponibili in `~/.ssh`.
+- avviata installazione locale di GitHub CLI (`gh`) in `.tools/`, esclusa dal repository.
+- completato login GitHub CLI come `niccolocovoni`.
+- creato repository pubblico `https://github.com/niccolocovoni/niccolocovoni.github.io`.
 
 Verifiche eseguite:
 
