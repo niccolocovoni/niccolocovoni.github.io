@@ -89,6 +89,7 @@ Modifiche effettuate:
 - confermato che le poster presentations non sono state inserite nella sezione `Talks`; restano solo nel blocco `Posters` di `Publications`.
 - aggiornato `github_profile_README.md` con link diretti a `Talks` e al PDF del CV.
 - rimossi i prefissi ridondanti `Workshop:` e `Invited talk:` da due voci degli invited talks.
+- rimosso il nome dalla navbar per evitare che vada su due righe; le voci di navigazione sono ora centrate.
 
 Verifiche eseguite:
 
