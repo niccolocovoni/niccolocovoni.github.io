@@ -69,6 +69,7 @@ Modifiche effettuate:
 - eliminate le vecchie copie locali non tracciate `index_updated.html` e `index_updated_v2.html`.
 - eliminata la copia locale `index_v3.html`; `index.html` resta l'unico HTML ufficiale del sito.
 - aggiornato il footer del sito con copyright e dicitura `Built with HTML & CSS`.
+- aggiornata la posizione istituzionale da `researcher` a `Non-tenured Assistant Professor` nel sito e nella bozza del profilo GitHub.
 
 Verifiche eseguite:
 
