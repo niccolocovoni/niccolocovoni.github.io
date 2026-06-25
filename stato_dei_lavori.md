@@ -32,6 +32,7 @@ File modificati:
 - `index.html`
 - `.gitignore`
 - `stato_dei_lavori.md`
+- `github_profile_README.md`
 
 Modifiche effettuate:
 
@@ -52,6 +53,7 @@ Modifiche effettuate:
 - aggiunto `.gitignore` per escludere `.DS_Store` e la cartella locale `00_pipeline/` dal repository.
 - inizializzato un repository Git locale;
 - creato il commit iniziale `8f8f4e8` con i file pubblicabili del sito.
+- preparata una bozza di README per il profilo GitHub nel file `github_profile_README.md`.
 
 Verifiche eseguite:
 
@@ -68,4 +70,5 @@ Prossimi passi utili:
 - eventualmente aggiungere una pagina dedicata a `Tractatus Quanticus`;
 - verificare/aggiornare CV e pubblicazioni prima della pubblicazione online.
 - creare o collegare un repository GitHub;
+- creare il repository speciale `niccolocovoni` per il profilo GitHub e usare `github_profile_README.md` come `README.md`;
 - pubblicare il sito con GitHub Pages.
