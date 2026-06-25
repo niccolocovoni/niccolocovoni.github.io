@@ -63,6 +63,9 @@ Modifiche effettuate:
 - configurato Git per usare le credenziali di GitHub CLI.
 - pubblicato il branch `main` su GitHub.
 - abilitato GitHub Pages da branch `main`, cartella `/`.
+- verificato che `https://niccolocovoni.github.io/` risponde con `HTTP 200`.
+- creato repository profilo pubblico `https://github.com/niccolocovoni/niccolocovoni`.
+- pubblicato `github_profile_README.md` come `README.md` del profilo GitHub.
 
 Verifiche eseguite:
 
@@ -78,5 +81,5 @@ Prossimi passi utili:
 - valutare una sezione News o Talks;
 - eventualmente aggiungere una pagina dedicata a `Tractatus Quanticus`;
 - verificare/aggiornare CV e pubblicazioni prima della pubblicazione online.
-- creare il repository speciale `niccolocovoni` per il profilo GitHub e usare `github_profile_README.md` come `README.md`;
 - verificare quando GitHub Pages completa la prima pubblicazione su `https://niccolocovoni.github.io/`.
+- rifinire il README del profilo GitHub se vuoi un tono piu' personale o piu' accademico.
