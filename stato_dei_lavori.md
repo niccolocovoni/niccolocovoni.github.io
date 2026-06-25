@@ -84,11 +84,13 @@ Modifiche effettuate:
 - aggiornata la frase di contatto in `You can reach me by email at`.
 - sostituito il link esterno del bottone `Download CV` con il PDF locale `files/Academic_CV.pdf`.
 - aggiunto `.nojekyll` per pubblicare il sito GitHub Pages come statico puro.
+- aggiunta la sezione `Talks` con invited talks, selected presentations e public presentations.
+- aggiunta voce `Talks` nella navbar.
 
 Verifiche eseguite:
 
 - apertura locale tramite server `http://localhost:8000/index_v3.html` durante la fase V3;
-- controllo sezioni presenti: About, Research, Research Coordination, Publications, Research Visits, Teaching, CV, Contact;
+- controllo sezioni presenti: About, Research, Research Coordination, Publications, Talks, Research Visits, Teaching, CV, Contact;
 - controllo ancore della navbar;
 - controllo resa desktop;
 - controllo resa mobile a 390x844.
@@ -96,7 +98,7 @@ Verifiche eseguite:
 Prossimi passi utili:
 
 - sostituire il link Facebook generico con il profilo corretto;
-- valutare una sezione News o Talks;
+- valutare una sezione News;
 - eventualmente aggiungere una pagina dedicata a `Tractatus Quanticus`;
 - verificare/aggiornare CV e pubblicazioni prima della pubblicazione online.
 - verificare quando GitHub Pages completa la prima pubblicazione su `https://niccolocovoni.github.io/`.
