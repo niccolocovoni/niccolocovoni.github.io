@@ -68,6 +68,7 @@ Modifiche effettuate:
 - pubblicato `github_profile_README.md` come `README.md` del profilo GitHub.
 - eliminate le vecchie copie locali non tracciate `index_updated.html` e `index_updated_v2.html`.
 - eliminata la copia locale `index_v3.html`; `index.html` resta l'unico HTML ufficiale del sito.
+- aggiornato il footer del sito con copyright e dicitura `Built with HTML & CSS`.
 
 Verifiche eseguite:
 
