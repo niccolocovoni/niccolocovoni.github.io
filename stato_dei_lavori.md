@@ -55,6 +55,8 @@ Modifiche effettuate:
 - creato il commit iniziale `8f8f4e8` con i file pubblicabili del sito.
 - preparata una bozza di README per il profilo GitHub nel file `github_profile_README.md`.
 - collegato il repository locale al remote `https://github.com/niccolocovoni/niccolocovoni.github.io.git`.
+- tentato il push verso GitHub; bloccato per mancanza di credenziali GitHub disponibili nella sessione (`could not read Username for 'https://github.com'`).
+- verificato che non ci sono chiavi SSH locali disponibili in `~/.ssh`.
 
 Verifiche eseguite:
 
@@ -73,3 +75,4 @@ Prossimi passi utili:
 - creare o collegare un repository GitHub;
 - creare il repository speciale `niccolocovoni` per il profilo GitHub e usare `github_profile_README.md` come `README.md`;
 - pubblicare il sito con GitHub Pages.
+- autenticare GitHub sul Mac tramite HTTPS/PAT, GitHub Desktop, GitHub CLI o SSH.
