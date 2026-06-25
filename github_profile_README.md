@@ -4,7 +4,7 @@ I work in philosophy of physics, philosophy of information, and metaphysics of s
 
 My research focuses on the conceptual and formal foundations of information in physics, with particular attention to Relational Quantum Mechanics, quantum information, quantum measurement, probability, entropy, and the foundations of thermodynamics.
 
-I am a Non-tenured Assistant Professor at the Sophia University Institute and a PhD candidate at the University of Urbino Carlo Bo and at the Institute of Philosophy of the Universita della Svizzera italiana (USI) in Lugano.
+I am a Non-Tenured Assistant Professor at the Sophia University Institute and a PhD candidate at the University of Urbino Carlo Bo and at the Institute of Philosophy of the Universita della Svizzera italiana (USI) in Lugano.
 
 I coordinate CI2, the Complexity & Information Initiative at the International Center for Transdisciplinary Studies (ICTS), Sophia University Institute.
 

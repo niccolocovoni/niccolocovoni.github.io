@@ -78,11 +78,15 @@ Modifiche effettuate:
 - centrato il bottone `Visit CI²` nella sezione Research Coordination.
 - rimossa la freccia verso il basso dal bottone `Download CV`.
 - uniformati i titoli accademici nelle sezioni About e Academic Visits per Francesca Vidotto, Hanna Podsędkowska, Eugene Y. S. Chua, Roberto Giuntini e Giuseppe Sergioli.
+- aggiornato `Non-tenured Assistant Professor` in `Non-Tenured Assistant Professor`.
+- uniformato `Prof.` in `Professor` nel testo del progetto di dottorato.
+- rinominata la sezione `Academic Visits` in `Research Visits`.
+- aggiornata la frase di contatto in `You can reach me by email at`.
 
 Verifiche eseguite:
 
 - apertura locale tramite server `http://localhost:8000/index_v3.html` durante la fase V3;
-- controllo sezioni presenti: About, Research, Research Coordination, Publications, Academic Visits, Teaching, CV, Contact;
+- controllo sezioni presenti: About, Research, Research Coordination, Publications, Research Visits, Teaching, CV, Contact;
 - controllo ancore della navbar;
 - controllo resa desktop;
 - controllo resa mobile a 390x844.
