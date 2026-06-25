@@ -77,6 +77,7 @@ Modifiche effettuate:
 - aggiornata la bozza del README del profilo GitHub con CI2.
 - centrato il bottone `Visit CI²` nella sezione Research Coordination.
 - rimossa la freccia verso il basso dal bottone `Download CV`.
+- uniformati i titoli accademici nelle sezioni About e Academic Visits per Francesca Vidotto, Hanna Podsędkowska, Eugene Y. S. Chua, Roberto Giuntini e Giuseppe Sergioli.
 
 Verifiche eseguite:
 
