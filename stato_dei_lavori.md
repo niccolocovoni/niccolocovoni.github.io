@@ -69,7 +69,7 @@ Modifiche effettuate:
 - eliminate le vecchie copie locali non tracciate `index_updated.html` e `index_updated_v2.html`.
 - eliminata la copia locale `index_v3.html`; `index.html` resta l'unico HTML ufficiale del sito.
 - aggiornato il footer del sito con copyright e dicitura `Built with HTML & CSS`.
-- aggiornata la posizione istituzionale da `researcher` a `Non-tenured Assistant Professor` nel sito e nella bozza del profilo GitHub.
+- aggiornata la posizione istituzionale da `researcher` a `Non-Tenured Assistant Professor` nel sito e nella bozza del profilo GitHub.
 - aggiunta la sezione `Research Coordination` al sito.
 - inserito il ruolo di coordinatore di CI2, Complexity & Information Initiative, presso ICTS/Sophia University Institute.
 - aggiunto link alla pagina CI2: `https://sankio23.github.io/icts-website/research/ci2.html`.
@@ -78,7 +78,7 @@ Modifiche effettuate:
 - centrato il bottone `Visit CI²` nella sezione Research Coordination.
 - rimossa la freccia verso il basso dal bottone `Download CV`.
 - uniformati i titoli accademici nelle sezioni About e Academic Visits per Francesca Vidotto, Hanna Podsędkowska, Eugene Y. S. Chua, Roberto Giuntini e Giuseppe Sergioli.
-- aggiornato `Non-tenured Assistant Professor` in `Non-Tenured Assistant Professor`.
+- uniformata la posizione istituzionale come `Non-Tenured Assistant Professor`.
 - uniformato `Prof.` in `Professor` nel testo del progetto di dottorato.
 - rinominata la sezione `Academic Visits` in `Research Visits`.
 - aggiornata la frase di contatto in `You can reach me by email at`.
