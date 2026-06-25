@@ -92,6 +92,7 @@ Modifiche effettuate:
 - rimosso il nome dalla navbar per evitare che vada su due righe; le voci di navigazione sono ora centrate.
 - aggiornata la frase About da `I work on...` a `I investigate...`.
 - aggiornato il footer con `Built with HTML & CSS · Last updated June 2026`.
+- rese leggermente piu' marcate le linee divisorie e i bordi aumentando il contrasto di `--hair`.
 
 Verifiche eseguite:
 
