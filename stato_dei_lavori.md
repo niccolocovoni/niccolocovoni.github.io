@@ -82,6 +82,7 @@ Modifiche effettuate:
 - uniformato `Prof.` in `Professor` nel testo del progetto di dottorato.
 - rinominata la sezione `Academic Visits` in `Research Visits`.
 - aggiornata la frase di contatto in `You can reach me by email at`.
+- sostituito il link esterno del bottone `Download CV` con il PDF locale `files/Academic_CV.pdf`.
 
 Verifiche eseguite:
 
