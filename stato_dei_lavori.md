@@ -50,6 +50,8 @@ Modifiche effettuate:
 - verificato che non ci sia overflow orizzontale su desktop e mobile.
 - preparato `index.html` come copia pubblicabile della Versione 3 per GitHub Pages;
 - aggiunto `.gitignore` per escludere `.DS_Store` e la cartella locale `00_pipeline/` dal repository.
+- inizializzato un repository Git locale;
+- creato il commit iniziale `8f8f4e8` con i file pubblicabili del sito.
 
 Verifiche eseguite:
 
