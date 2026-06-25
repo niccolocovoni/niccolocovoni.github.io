@@ -70,11 +70,16 @@ Modifiche effettuate:
 - eliminata la copia locale `index_v3.html`; `index.html` resta l'unico HTML ufficiale del sito.
 - aggiornato il footer del sito con copyright e dicitura `Built with HTML & CSS`.
 - aggiornata la posizione istituzionale da `researcher` a `Non-tenured Assistant Professor` nel sito e nella bozza del profilo GitHub.
+- aggiunta la sezione `Research Coordination` al sito.
+- inserito il ruolo di coordinatore di CI2, Complexity & Information Initiative, presso ICTS/Sophia University Institute.
+- aggiunto link alla pagina CI2: `https://sankio23.github.io/icts-website/research/ci2.html`.
+- aggiunta voce navbar `CI²`, etichetta breve per mantenere compatta la navigazione mobile.
+- aggiornata la bozza del README del profilo GitHub con CI2.
 
 Verifiche eseguite:
 
 - apertura locale tramite server `http://localhost:8000/index_v3.html` durante la fase V3;
-- controllo sezioni presenti: About, Research, Publications, Academic Visits, Teaching, CV, Contact;
+- controllo sezioni presenti: About, Research, Research Coordination, Publications, Academic Visits, Teaching, CV, Contact;
 - controllo ancore della navbar;
 - controllo resa desktop;
 - controllo resa mobile a 390x844.
@@ -87,3 +92,4 @@ Prossimi passi utili:
 - verificare/aggiornare CV e pubblicazioni prima della pubblicazione online.
 - verificare quando GitHub Pages completa la prima pubblicazione su `https://niccolocovoni.github.io/`.
 - rifinire il README del profilo GitHub se vuoi un tono piu' personale o piu' accademico.
+- valutare se creare in futuro una pagina interna dedicata a CI2, invece del solo rimando alla pagina ICTS.

@@ -6,6 +6,8 @@ My research focuses on the conceptual and formal foundations of information in p
 
 I am a Non-tenured Assistant Professor at the Sophia University Institute and a PhD candidate at the University of Urbino Carlo Bo and at the Institute of Philosophy of the Universita della Svizzera italiana (USI) in Lugano.
 
+I coordinate CI2, the Complexity & Information Initiative at the International Center for Transdisciplinary Studies (ICTS), Sophia University Institute.
+
 ## Research Areas
 
 - Philosophy of information
@@ -13,6 +15,8 @@ I am a Non-tenured Assistant Professor at the Sophia University Institute and a 
 - Relational Quantum Mechanics
 - Entropy and thermodynamics
 - Metaphysics of science
+- Complexity and information
+- Foundations of quantum computation
 
 ## Selected Work
 
@@ -23,5 +27,6 @@ I am a Non-tenured Assistant Professor at the Sophia University Institute and a 
 ## Links
 
 - Website: https://niccolocovoni.github.io
+- CI2: https://sankio23.github.io/icts-website/research/ci2.html
 - Google Scholar: https://scholar.google.com/citations?user=5NWfHK4AAAAJ&hl=it
 - Email: niccolo.covoni@gmail.com
