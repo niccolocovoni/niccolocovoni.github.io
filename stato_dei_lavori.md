@@ -60,6 +60,9 @@ Modifiche effettuate:
 - avviata installazione locale di GitHub CLI (`gh`) in `.tools/`, esclusa dal repository.
 - completato login GitHub CLI come `niccolocovoni`.
 - creato repository pubblico `https://github.com/niccolocovoni/niccolocovoni.github.io`.
+- configurato Git per usare le credenziali di GitHub CLI.
+- pubblicato il branch `main` su GitHub.
+- abilitato GitHub Pages da branch `main`, cartella `/`.
 
 Verifiche eseguite:
 
@@ -75,7 +78,5 @@ Prossimi passi utili:
 - valutare una sezione News o Talks;
 - eventualmente aggiungere una pagina dedicata a `Tractatus Quanticus`;
 - verificare/aggiornare CV e pubblicazioni prima della pubblicazione online.
-- creare o collegare un repository GitHub;
 - creare il repository speciale `niccolocovoni` per il profilo GitHub e usare `github_profile_README.md` come `README.md`;
-- pubblicare il sito con GitHub Pages.
-- autenticare GitHub sul Mac tramite HTTPS/PAT, GitHub Desktop, GitHub CLI o SSH.
+- verificare quando GitHub Pages completa la prima pubblicazione su `https://niccolocovoni.github.io/`.
