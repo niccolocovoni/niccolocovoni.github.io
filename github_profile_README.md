@@ -27,6 +27,8 @@ I coordinate CI2, the Complexity & Information Initiative at the International C
 ## Links
 
 - Website: https://niccolocovoni.github.io
+- Talks: https://niccolocovoni.github.io/#talks
+- CV: https://niccolocovoni.github.io/files/Academic_CV.pdf
 - CI2: https://sankio23.github.io/icts-website/research/ci2.html
 - Google Scholar: https://scholar.google.com/citations?user=5NWfHK4AAAAJ&hl=it
 - Email: niccolo.covoni@gmail.com

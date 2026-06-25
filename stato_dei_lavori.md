@@ -86,6 +86,8 @@ Modifiche effettuate:
 - aggiunto `.nojekyll` per pubblicare il sito GitHub Pages come statico puro.
 - aggiunta la sezione `Talks` con invited talks, selected presentations e public presentations.
 - aggiunta voce `Talks` nella navbar.
+- confermato che le poster presentations non sono state inserite nella sezione `Talks`; restano solo nel blocco `Posters` di `Publications`.
+- aggiornato `github_profile_README.md` con link diretti a `Talks` e al PDF del CV.
 
 Verifiche eseguite:
 
@@ -100,7 +102,5 @@ Prossimi passi utili:
 - sostituire il link Facebook generico con il profilo corretto;
 - valutare una sezione News;
 - eventualmente aggiungere una pagina dedicata a `Tractatus Quanticus`;
-- verificare/aggiornare CV e pubblicazioni prima della pubblicazione online.
-- verificare quando GitHub Pages completa la prima pubblicazione su `https://niccolocovoni.github.io/`.
 - rifinire il README del profilo GitHub se vuoi un tono piu' personale o piu' accademico.
 - valutare se creare in futuro una pagina interna dedicata a CI2, invece del solo rimando alla pagina ICTS.
