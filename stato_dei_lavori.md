@@ -36,12 +36,16 @@ Modifiche:
 - spostata la frase di contatto con l'indirizzo email nella testata, subito sotto il ruolo e gli ambiti di ricerca;
 - rimossa la frase duplicata dalla sezione `Contact`, che ora raccoglie soltanto i pulsanti di contatto e dei profili.
 - corretto il pulsante Facebook collegandolo al profilo `https://www.facebook.com/niccolo.covoni.uni/`.
+- uniformato il font della riga email al sans-serif usato per il ruolo, mantenendo maiuscole e minuscole naturali;
+- rimosso il punto finale dopo l'indirizzo email;
+- aggiunta una linea divisoria tra la testata e la biografia nella sezione `About`.
 
 Verifiche eseguite:
 
 - controllo del link `mailto:` nella testata;
 - controllo dell'assenza di testo duplicato nella sezione `Contact`;
 - controllo del collegamento al profilo Facebook;
+- controllo della linea divisoria e dello stile della riga email;
 - controllo della resa desktop e mobile.
 
 ### 2026-06-25
