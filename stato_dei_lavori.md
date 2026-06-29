@@ -39,6 +39,7 @@ Modifiche:
 - uniformato il font della riga email al sans-serif usato per il ruolo, mantenendo maiuscole e minuscole naturali;
 - rimosso il punto finale dopo l'indirizzo email;
 - aggiunta una linea divisoria tra la testata e la biografia nella sezione `About`.
+- aggiunta alle `Selected Presentations` la presentazione del 29/06/2026 alla SILFS Triennial International Conference 2026 presso la Scuola Universitaria Superiore IUSS di Pavia.
 
 Verifiche eseguite:
 
@@ -46,6 +47,7 @@ Verifiche eseguite:
 - controllo dell'assenza di testo duplicato nella sezione `Contact`;
 - controllo del collegamento al profilo Facebook;
 - controllo della linea divisoria e dello stile della riga email;
+- controllo dell'ordine cronologico e della formattazione della nuova presentazione;
 - controllo della resa desktop e mobile.
 
 ### 2026-06-25
