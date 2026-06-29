@@ -1,6 +1,6 @@
 # Stato dei lavori
 
-Ultimo aggiornamento: 2026-06-25
+Ultimo aggiornamento: 2026-06-29
 
 ## Regola operativa
 
@@ -23,6 +23,24 @@ File principali presenti nella cartella:
 - `github_profile_README.md`: bozza usata come README del profilo GitHub.
 
 ## Ultime modifiche
+
+### 2026-06-29
+
+File modificati:
+
+- `index.html`
+- `stato_dei_lavori.md`
+
+Modifiche:
+
+- spostata la frase di contatto con l'indirizzo email nella testata, subito sotto il ruolo e gli ambiti di ricerca;
+- rimossa la frase duplicata dalla sezione `Contact`, che ora raccoglie soltanto i pulsanti di contatto e dei profili.
+
+Verifiche eseguite:
+
+- controllo del link `mailto:` nella testata;
+- controllo dell'assenza di testo duplicato nella sezione `Contact`;
+- controllo della resa desktop e mobile.
 
 ### 2026-06-25
 
