@@ -1,6 +1,6 @@
 # Stato dei lavori
 
-Ultimo aggiornamento: 2026-06-29
+Ultimo aggiornamento: 2026-07-01
 
 ## Regola operativa
 
@@ -23,6 +23,31 @@ File principali presenti nella cartella:
 - `github_profile_README.md`: bozza usata come README del profilo GitHub.
 
 ## Ultime modifiche
+
+### 2026-07-01
+
+File modificati:
+
+- `index.html`
+- `cv-source/`
+- `files/Academic_CV.pdf`
+- `stato_dei_lavori.md`
+
+Modifiche:
+
+- aggiunto alle pubblicazioni del sito l'articolo di Vincenzo Fano e Niccolò Covoni, `Phenomenological Elements in Carnap's Aufbau: The Epistemological Role of Sensible Intuition`, pubblicato in `Sophia`, XVIII(2026-1), 29-51;
+- aggiunto il collegamento al PDF open access pubblicato dal Journal of Sophia University;
+- aggiunta la stessa pubblicazione alla sezione `Published` del CV scaricabile;
+- salvato nella cartella del progetto il sorgente LaTeX completo del CV per i prossimi aggiornamenti;
+- aggiornata la data nel footer del CV da `April 2026` a `July 2026`;
+- corretti due problemi tecnici preesistenti nel sorgente LaTeX che impedivano la compilazione e comprimevano la sezione `Education`.
+
+Verifiche eseguite:
+
+- controllo dei dati bibliografici sul PDF ufficiale dell'articolo;
+- controllo del link al PDF nella sezione `Publications`;
+- rendering e controllo visivo della pagina aggiornata del CV;
+- controllo della leggibilità e dell'assenza di sovrapposizioni nel PDF.
 
 ### 2026-06-29
 
