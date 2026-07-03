@@ -29,18 +29,30 @@ File principali presenti nella cartella:
 File modificati:
 
 - `index.html`
+- `cv-source/`
+- `files/Academic_CV.pdf`
 - `stato_dei_lavori.md`
 
 Modifiche:
 
 - rimossa dal sito pubblico l'intera sezione `Posters` per dare maggiore rilievo alle pubblicazioni principali;
-- mantenute tutte le poster presentations nel CV completo e nel relativo sorgente LaTeX.
+- mantenute tutte le poster presentations nel CV completo e nel relativo sorgente LaTeX;
+- aggiunto `The European Physical Journal H` alle riviste per cui è stata svolta attività di refereeing;
+- aggiornata la visita a NTU da `Visiting Student` a `FTG Visiting Fellow`, con Eugene Y. S. Chua indicato come host;
+- rimosso `Open access PDF` dalla pubblicazione in `Sophia`;
+- aggiunta la presentazione SILFS del 29/06/2026 alle contributed presentations;
+- riordinati alfabeticamente gli autori di `Tractatus Quanticus` nella sezione `Under Contract`;
+- lasciata nell'intestazione del CV soltanto l'email `niccolo.covoni@usi.ch`;
+- sostituito il vecchio sito WordPress con `https://niccolocovoni.github.io/` nell'intestazione del CV.
 
 Verifiche eseguite:
 
 - controllo dell'assenza della sezione `Posters` nel sito;
 - controllo della permanenza delle tre poster presentations nel CV;
-- controllo della continuità tra le sezioni `Publications` e `Talks`.
+- controllo della continuità tra le sezioni `Publications` e `Talks`;
+- compilazione del sorgente LaTeX aggiornato;
+- rendering e controllo visivo di tutte le pagine del CV;
+- controllo dei collegamenti email e sito nell'intestazione del PDF.
 
 ### 2026-07-01
 
