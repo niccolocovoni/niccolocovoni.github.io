@@ -1,6 +1,6 @@
 # Stato dei lavori
 
-Ultimo aggiornamento: 2026-07-01
+Ultimo aggiornamento: 2026-07-03
 
 ## Regola operativa
 
@@ -23,6 +23,24 @@ File principali presenti nella cartella:
 - `github_profile_README.md`: bozza usata come README del profilo GitHub.
 
 ## Ultime modifiche
+
+### 2026-07-03
+
+File modificati:
+
+- `index.html`
+- `stato_dei_lavori.md`
+
+Modifiche:
+
+- rimossa dal sito pubblico l'intera sezione `Posters` per dare maggiore rilievo alle pubblicazioni principali;
+- mantenute tutte le poster presentations nel CV completo e nel relativo sorgente LaTeX.
+
+Verifiche eseguite:
+
+- controllo dell'assenza della sezione `Posters` nel sito;
+- controllo della permanenza delle tre poster presentations nel CV;
+- controllo della continuità tra le sezioni `Publications` e `Talks`.
 
 ### 2026-07-01
 
