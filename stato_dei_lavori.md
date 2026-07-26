@@ -34,6 +34,7 @@ File modificati:
 
 Modifiche:
 
+- aggiornata la posizione istituzionale da `Research Fellow` a `Fixed-Term Assistant Professor`, dopo confronto con l'uso istituzionale di università italiane;
 - aggiornata la posizione istituzionale da `Non-Tenured Assistant Professor` a `Research Fellow`;
 - modificata sia la riga sotto il nome nella masthead sia il testo della bio;
 - uniformata la stessa qualifica nella bozza del profilo GitHub.
