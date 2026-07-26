@@ -1,6 +1,6 @@
 # Stato dei lavori
 
-Ultimo aggiornamento: 2026-07-03
+Ultimo aggiornamento: 2026-07-26
 
 ## Regola operativa
 
@@ -23,6 +23,24 @@ File principali presenti nella cartella:
 - `github_profile_README.md`: bozza usata come README del profilo GitHub.
 
 ## Ultime modifiche
+
+### 2026-07-26
+
+File modificati:
+
+- `index.html`
+- `github_profile_README.md`
+- `stato_dei_lavori.md`
+
+Modifiche:
+
+- aggiornata la posizione istituzionale da `Non-Tenured Assistant Professor` a `Research Fellow`;
+- modificata sia la riga sotto il nome nella masthead sia il testo della bio;
+- uniformata la stessa qualifica nella bozza del profilo GitHub.
+
+Verifiche eseguite:
+
+- controllo testuale delle occorrenze della vecchia qualifica.
 
 ### 2026-07-03
 
