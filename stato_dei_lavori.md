@@ -1,6 +1,6 @@
 # Stato dei lavori
 
-Ultimo aggiornamento: 2026-07-26
+Ultimo aggiornamento: 2026-07-27
 
 ## Regola operativa
 
@@ -23,6 +23,21 @@ File principali presenti nella cartella:
 - `github_profile_README.md`: bozza usata come README del profilo GitHub.
 
 ## Ultime modifiche
+
+### 2026-07-27
+
+File modificati:
+
+- `index.html`
+- `stato_dei_lavori.md`
+
+Modifiche:
+
+- aggiornata la voce `Focus` della sezione CI² sostituendo `relational epistemology` con `relational interpretation`.
+
+Verifiche eseguite:
+
+- controllo testuale della nuova formulazione nel sito.
 
 ### 2026-07-26
 
