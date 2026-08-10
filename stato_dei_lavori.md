@@ -1,6 +1,6 @@
 # Stato dei lavori
 
-Ultimo aggiornamento: 2026-07-27
+Ultimo aggiornamento: 2026-08-10
 
 ## Regola operativa
 
@@ -23,6 +23,26 @@ File principali presenti nella cartella:
 - `github_profile_README.md`: bozza usata come README del profilo GitHub.
 
 ## Ultime modifiche
+
+### 2026-08-10
+
+File modificati:
+
+- `index.html`
+- `github_profile_README.md`
+- `stato_dei_lavori.md`
+
+Modifiche:
+
+- riorganizzata la biografia separando posizione attuale, ambiti di ricerca, visite accademiche, dottorato e formazione;
+- aggiornata la posizione dottorale da `PhD candidate` a dottorato completato, usando la formulazione `I completed my PhD`;
+- aggiunti i collegamenti ufficiali a Rotman Institute, Western University, progetto QISS, Faculty of Mathematics and Computer Science dell'Universita di Lodz, Foundations of Thermodynamics Group e NTU;
+- uniformata la nuova situazione accademica nella bozza del profilo GitHub.
+
+Verifiche eseguite:
+
+- controllo degli URL sui siti ufficiali delle istituzioni e dei gruppi citati;
+- controllo testuale dell'assenza della vecchia formulazione `PhD candidate`.
 
 ### 2026-07-27
 
