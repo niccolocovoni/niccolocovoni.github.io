@@ -1,6 +1,6 @@
 # Stato dei lavori
 
-Ultimo aggiornamento: 2026-08-10
+Ultimo aggiornamento: 2026-08-15
 
 ## Regola operativa
 
@@ -23,6 +23,26 @@ File principali presenti nella cartella:
 - `github_profile_README.md`: bozza usata come README del profilo GitHub.
 
 ## Ultime modifiche
+
+### 2026-08-15
+
+File modificati:
+
+- `index.html`
+- `github_profile_README.md`
+- `stato_dei_lavori.md`
+
+Modifiche:
+
+- aggiunta in apertura della sezione `Publications` la nuova sottosezione `Books`;
+- inserito `Tractatus Quanticus` di Niccolo Covoni, Andrea Di Biagio e Carlo Rovelli, indicandolo come volume Wiley under contract;
+- mantenuto separatamente il preprint arXiv gia presente;
+- aggiornata la voce corrispondente nella selezione dei lavori del profilo GitHub.
+
+Verifiche eseguite:
+
+- controllo dell'ordine delle sottosezioni bibliografiche;
+- controllo della distinzione tra il volume under contract e il preprint arXiv.
 
 ### 2026-08-10
 

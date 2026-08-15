@@ -20,7 +20,7 @@ I coordinate CI2, the Complexity & Information Initiative at the International C
 
 ## Selected Work
 
-- *Tractatus Quanticus*, with Carlo Rovelli
+- *Tractatus Quanticus*, with Andrea Di Biagio and Carlo Rovelli (Wiley, under contract)
 - *Relational Information: Towards a New Kind of Information in Quantum Mechanics*, with Marco Sanchioni
 - *Relational Quantum Mechanics and (Soft) Perspectivism*, with Vincenzo Fano and Marco Sanchioni
 
