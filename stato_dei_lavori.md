@@ -38,11 +38,13 @@ Modifiche:
 - inserito `Tractatus Quanticus` di Niccolo Covoni, Andrea Di Biagio e Carlo Rovelli, indicandolo come volume Wiley under contract;
 - mantenuto separatamente il preprint arXiv gia presente;
 - aggiornata la voce corrispondente nella selezione dei lavori del profilo GitHub.
+- centrata la frase iniziale della biografia sulla posizione di Fixed-Term Assistant Professor, mantenendo allineati a sinistra gli altri paragrafi.
 
 Verifiche eseguite:
 
 - controllo dell'ordine delle sottosezioni bibliografiche;
 - controllo della distinzione tra il volume under contract e il preprint arXiv.
+- controllo dell'allineamento dedicato della frase introduttiva anche nella regola responsive.
 
 ### 2026-08-10
 
