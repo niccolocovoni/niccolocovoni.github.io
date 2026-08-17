@@ -33,6 +33,7 @@ File modificati:
 - `cv-source/cv.tex`
 - `cv-source/cv/professional.tex`
 - `files/Academic_CV.pdf`
+- `images/profile.jpg`
 - `stato_dei_lavori.md`
 
 Modifiche:
@@ -43,11 +44,17 @@ Modifiche:
 - aggiornata l'intestazione del CV con la posizione presso Sophia University Institute;
 - aggiornata la data del CV ad agosto 2026.
 - mantenuti uniti sulla stessa pagina il titolo `Academic Positions` e la relativa voce.
+- separati nella testata del sito il ruolo accademico e gli interessi di ricerca su due righe distinte;
+- collegata la riga del ruolo direttamente alla pagina personale sul sito di Sophia University Institute;
+- rimossa dall'About la frase duplicata sulla posizione di Assistant Professor;
+- sostituita l'immagine WordPress in bianco e nero con una fotografia locale a colori, ottimizzata a 800 px e con ritaglio centrato sul volto.
 
 Verifiche eseguite:
 
 - controllo testuale delle qualifiche nel sito, nel profilo e nel sorgente del CV;
 - compilazione, rendering e controllo visivo di tutte le pagine del PDF aggiornato.
+- controllo del nuovo ordine visivo della testata e del collegamento alla pagina Sophia;
+- controllo del ritaglio della fotografia a colori su desktop e mobile.
 
 ### 2026-08-15
 
