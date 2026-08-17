@@ -1,6 +1,6 @@
 # Stato dei lavori
 
-Ultimo aggiornamento: 2026-08-15
+Ultimo aggiornamento: 2026-08-17
 
 ## Regola operativa
 
@@ -23,6 +23,31 @@ File principali presenti nella cartella:
 - `github_profile_README.md`: bozza usata come README del profilo GitHub.
 
 ## Ultime modifiche
+
+### 2026-08-17
+
+File modificati:
+
+- `index.html`
+- `github_profile_README.md`
+- `cv-source/cv.tex`
+- `cv-source/cv/professional.tex`
+- `files/Academic_CV.pdf`
+- `stato_dei_lavori.md`
+
+Modifiche:
+
+- semplificata sul sito la qualifica da `Fixed-Term Assistant Professor` ad `Assistant Professor`, sia nella testata sia nella biografia;
+- uniformata la stessa qualifica nella bozza del profilo GitHub;
+- aggiunta al CV la sezione `Academic Positions` con la posizione `Fixed-Term Assistant Professor` presso Sophia University Institute per il periodo 2027-2030;
+- aggiornata l'intestazione del CV con la posizione presso Sophia University Institute;
+- aggiornata la data del CV ad agosto 2026.
+- mantenuti uniti sulla stessa pagina il titolo `Academic Positions` e la relativa voce.
+
+Verifiche eseguite:
+
+- controllo testuale delle qualifiche nel sito, nel profilo e nel sorgente del CV;
+- compilazione, rendering e controllo visivo di tutte le pagine del PDF aggiornato.
 
 ### 2026-08-15
 
