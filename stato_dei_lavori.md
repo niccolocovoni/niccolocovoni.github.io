@@ -31,7 +31,12 @@ File modificati:
 - `index.html`
 - `github_profile_README.md`
 - `cv-source/cv.tex`
+- `cv-source/cv/education.tex`
 - `cv-source/cv/professional.tex`
+- `cv-source/cv/publications.tex`
+- `cv-source/cv/research.tex`
+- `cv-source/cv/Service.tex`
+- `cv-source/cv/teaching.tex`
 - `files/Academic_CV.pdf`
 - `images/profile.jpg`
 - `stato_dei_lavori.md`
@@ -48,6 +53,16 @@ Modifiche:
 - collegata la riga del ruolo direttamente alla pagina personale sul sito di Sophia University Institute;
 - rimossa dall'About la frase duplicata sulla posizione di Assistant Professor;
 - sostituita l'immagine WordPress in bianco e nero con una fotografia locale a colori, ottimizzata a 800 px e con ritaglio centrato sul volto.
+- aggiunta tra le pubblicazioni del sito e del CV la voce `Relationality without Agents: Quantum Correlations and the Limits of QBism`, pubblicata nel volume `Niels Bohr and Contemporary Philosophy of Science`, Minkowski Institute Press, pp. 61-86;
+- rimossa la stessa voce dalla sezione `In Review` del CV e collegata sul sito soltanto la pagina ufficiale del volume;
+- aggiornata l'email del CV in `niccolo.covoni@sophiauniversity.org`;
+- spostata la sezione `Academic Positions` prima di `Education` e rimosso il salto pagina forzato;
+- aggiornate al 2026 le date finali dei due percorsi di dottorato;
+- aggiunti al CV gli insegnamenti 2026-2027 presenti sul sito e completata la voce `Lugano Philosophy Colloquia`;
+- aggiunto al CV il coordinamento di CI² e corretta al 2024 la visita presso l'Universita di Cagliari;
+- corretti nella sezione `Research Experience` i refusi `Visting Student` e i titoli dei supervisori.
+- migliorata l'impaginazione del CV mantenendo il titolo `Teaching Experience` insieme alle relative voci e corretto il refuso `Philosophy of Languag`.
+- uniformati al sito i titoli del contributo sul pensiero numerico e del talk sull'entropia di von Neumann; rimossi inoltre i prefissi ridondanti `Workshop:` e `Invited talk:` dal CV.
 
 Verifiche eseguite:
 
@@ -55,6 +70,10 @@ Verifiche eseguite:
 - compilazione, rendering e controllo visivo di tutte le pagine del PDF aggiornato.
 - controllo del nuovo ordine visivo della testata e del collegamento alla pagina Sophia;
 - controllo del ritaglio della fotografia a colori su desktop e mobile.
+- verifica dei dati bibliografici sul volume ufficiale e sulla pagina di Minkowski Institute Press;
+- confronto completo tra contenuti pubblici del sito e CV esteso;
+- controllo dell'assenza della nuova pubblicazione dalla sezione `In Review`;
+- compilazione, rendering e controllo visivo di tutte le pagine del CV riallineato.
 
 ### 2026-08-15
 
