@@ -30,6 +30,8 @@ File modificati:
 
 - `cv-source/cv-short.tex`
 - `cv-source/cv/Service.tex`
+- `cv-source/cv/research.tex`
+- `cv-source/cv/teaching.tex`
 - `files/Academic_CV.pdf`
 - `output/pdf/Academic_CV_3_pages.pdf`
 - `stato_dei_lavori.md`
@@ -44,6 +46,12 @@ Modifiche:
 - separati visivamente titoli, sottotitoli e contenuti per eliminare le intestazioni sovrapposte del template.
 - abbreviato il Research Profile della versione breve ai soli quattro ambiti disciplinari;
 - aggiunto nel CV breve il corso introduttivo di filosofia della termodinamica per studenti di filosofia presso USI nel 2026;
+- aggiunto lo stesso corso anche alla sezione Teaching del CV completo scaricabile dal sito;
+- mantenuta Teaching Experience all'inizio di una nuova pagina per evitare titoli isolati;
+- resa separabile la tabella delle visite per tenere Research Experience insieme alla prima voce senza creare un secondo titolo isolato;
+- rimosso un blocco vuoto e recuperato lo spazio utile nella sezione Service per tenere Research Coordination insieme alla relativa descrizione;
+- portata Active Organization of Events insieme al primo evento sulla pagina successiva, eliminando l'ultima intestazione isolata;
+- ottimizzata l'ultima pagina del CV completo per conservare tutte le esperienze e l'elenco delle riviste in undici pagine.
 - sostituita la singola summer school del 2026 con l'attivita continuativa `International Summer School in Philosophy of Physics, since 2024`;
 - aggiunti al refereeing del CV breve e del CV completo `The British Journal for the Philosophy of Science`, `Humanities and Social Sciences Communications` e `Philosophical Inquiries`.
 
@@ -52,6 +60,7 @@ Verifiche eseguite:
 - compilazione del sorgente LaTeX dedicato;
 - controllo testuale dei dati essenziali e del numero esatto di pagine;
 - rendering e controllo visivo integrale delle tre pagine.
+- ricompilazione del CV completo in undici pagine, controllo testuale del nuovo corso e verifica visiva integrale dell'impaginazione, inclusi i passaggi tra Teaching, Research e Service.
 - ricompilazione e controllo visivo integrale delle undici pagine del CV completo dopo l'estensione del refereeing.
 
 ### 2026-08-17
