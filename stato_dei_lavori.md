@@ -1,6 +1,6 @@
 # Stato dei lavori
 
-Ultimo aggiornamento: 2026-08-17
+Ultimo aggiornamento: 2026-08-20
 
 ## Regola operativa
 
@@ -23,6 +23,36 @@ File principali presenti nella cartella:
 - `github_profile_README.md`: bozza usata come README del profilo GitHub.
 
 ## Ultime modifiche
+
+### 2026-08-20
+
+File modificati:
+
+- `cv-source/cv-short.tex`
+- `cv-source/cv/Service.tex`
+- `files/Academic_CV.pdf`
+- `output/pdf/Academic_CV_3_pages.pdf`
+- `stato_dei_lavori.md`
+
+Modifiche:
+
+- creata una versione breve e autonoma dell'Academic CV, pensata per l'invio e limitata a tre pagine;
+- mantenuto intatto il CV completo pubblicato sul sito;
+- indicato il dottorato come in corso dal 2023, con la dicitura `Expected thesis defense: February 2027`;
+- selezionati posizione accademica, formazione, visite, premi, pubblicazioni, talks, didattica e servizio professionale piu' rilevanti.
+- riequilibrate le tre pagine con spaziatura piu' leggibile e una selezione piu' rappresentativa di pubblicazioni, presentazioni, didattica e organizzazione accademica.
+- separati visivamente titoli, sottotitoli e contenuti per eliminare le intestazioni sovrapposte del template.
+- abbreviato il Research Profile della versione breve ai soli quattro ambiti disciplinari;
+- aggiunto nel CV breve il corso introduttivo di filosofia della termodinamica per studenti di filosofia presso USI nel 2026;
+- sostituita la singola summer school del 2026 con l'attivita continuativa `International Summer School in Philosophy of Physics, since 2024`;
+- aggiunti al refereeing del CV breve e del CV completo `The British Journal for the Philosophy of Science`, `Humanities and Social Sciences Communications` e `Philosophical Inquiries`.
+
+Verifiche eseguite:
+
+- compilazione del sorgente LaTeX dedicato;
+- controllo testuale dei dati essenziali e del numero esatto di pagine;
+- rendering e controllo visivo integrale delle tre pagine.
+- ricompilazione e controllo visivo integrale delle undici pagine del CV completo dopo l'estensione del refereeing.
 
 ### 2026-08-17
 
