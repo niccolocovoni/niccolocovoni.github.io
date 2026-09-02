@@ -24,6 +24,31 @@ File principali presenti nella cartella:
 
 ## Ultime modifiche
 
+### 2026-09-02
+
+File modificati:
+
+- `index.html`
+- `cv-source/cv/teaching.tex`
+- `cv-source/cv-short.tex`
+- `files/Academic_CV.pdf`
+- `output/pdf/Academic_CV_3_pages.pdf`
+- `stato_dei_lavori.md`
+
+Modifiche:
+
+- indicato che `Philosophy of Language` e' un corso per bachelor's students;
+- indicato che `Logic, Game Theory and Happiness` e' un corso per master's students, mantenendo il riferimento alla co-docenza con Marco Sanchioni;
+- sostituita la descrizione di `Lugano Philosophy Colloquia` con `Course for master's students`;
+- uniformate le tre voci nel sito, nel CV completo e nel CV breve.
+
+Verifiche eseguite:
+
+- compilati correttamente entrambi i sorgenti LaTeX;
+- confermate 11 pagine per il CV completo e 3 pagine per il CV breve;
+- controllato il testo estratto e verificata visivamente ogni pagina dei due PDF;
+- verificata la coerenza delle tre descrizioni nella sezione Teaching dell'HTML e nei due sorgenti LaTeX.
+
 ### 2026-08-20
 
 File modificati:
