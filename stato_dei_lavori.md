@@ -24,6 +24,34 @@ File principali presenti nella cartella:
 
 ## Ultime modifiche
 
+### 2026-09-24
+
+File modificati:
+
+- `index.html`
+- `cv-source/cv/presentation.tex`
+- `cv-source/cv/publications.tex`
+- `cv-source/cv-short.tex`
+- `files/Academic_CV.pdf`
+- `output/pdf/Academic_CV_3_pages.pdf`
+- `stato_dei_lavori.md`
+
+Modifiche:
+
+- aggiunto il talk del 23/09/2026, `Entanglement, Relative Facts, and the Meaning of Information in Relational Quantum Mechanics`, tenuto ai Warsaw Dialogues in the Philosophy of Physics 2026 presso Warsaw University of Technology;
+- aggiunta la partecipazione come invited speaker alla sessione `Foundations of Quantum Theory` della conferenza New Directions in the Foundations of Physics, 27-30/05/2027, Hotel Bohinj, Slovenia;
+- collegato sul sito il programma ufficiale della conferenza NDFP 2027;
+- aggiornata la voce di `Tractatus Quanticus` come volume Adelphi under contract, mantenendo l'ordine degli autori Covoni, Di Biagio e Rovelli;
+- uniformate le modifiche nel sito, nel CV completo e nel CV breve.
+
+Verifiche eseguite:
+
+- compilati correttamente entrambi i sorgenti LaTeX;
+- confermate 11 pagine per il CV completo e 3 pagine per il CV breve;
+- verificata tramite estrazione testuale la presenza del talk di Varsavia, dell'invito NDFP 2027 e dell'editore Adelphi;
+- renderizzate e controllate visivamente tutte le pagine dei due PDF, senza sovrapposizioni o testo fuori margine;
+- verificata localmente la presenza e la corretta collocazione delle nuove voci nell'HTML.
+
 ### 2026-09-02
 
 File modificati:
