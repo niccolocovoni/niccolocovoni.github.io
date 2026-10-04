@@ -1,6 +1,6 @@
 # Stato dei lavori
 
-Ultimo aggiornamento: 2026-08-20
+Ultimo aggiornamento: 2026-10-04
 
 ## Regola operativa
 
@@ -23,6 +23,29 @@ File principali presenti nella cartella:
 - `github_profile_README.md`: bozza usata come README del profilo GitHub.
 
 ## Ultime modifiche
+
+### 2026-10-04
+
+File modificati:
+
+- `cv-source/cv/Service.tex`
+- `cv-source/cv-short.tex`
+- `files/Academic_CV.pdf`
+- `output/pdf/Academic_CV_3_pages.pdf`
+- `stato_dei_lavori.md`
+
+Modifiche:
+
+- aggiunti `Foundations of Physics` e `Studies in History and Philosophy of Science` alle riviste per cui e' stata svolta attivita di refereeing;
+- confermata senza duplicazioni la voce gia presente `Humanities and Social Sciences Communications`;
+- uniformata la lista di refereeing nel CV completo e nel CV breve.
+
+Verifiche eseguite:
+
+- compilati correttamente entrambi i sorgenti LaTeX;
+- confermate 11 pagine per il CV completo e 3 pagine per il CV breve;
+- verificata tramite estrazione testuale la presenza di `Foundations of Physics`, `Studies in History and Philosophy of Science` e, una sola volta, `Humanities and Social Sciences Communications`;
+- renderizzate e controllate visivamente tutte le pagine dei due PDF, senza sovrapposizioni, testo fuori margine o problemi nei piè di pagina.
 
 ### 2026-09-24
 
