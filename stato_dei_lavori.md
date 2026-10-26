@@ -1,6 +1,6 @@
 # Stato dei lavori
 
-Ultimo aggiornamento: 2026-10-04
+Ultimo aggiornamento: 2026-10-26
 
 ## Regola operativa
 
@@ -23,6 +23,33 @@ File principali presenti nella cartella:
 - `github_profile_README.md`: bozza usata come README del profilo GitHub.
 
 ## Ultime modifiche
+
+### 2026-10-26
+
+File modificati:
+
+- `index.html`
+- `cv-source/cv.tex`
+- `cv-source/cv/publications.tex`
+- `cv-source/cv-short.tex`
+- `files/Academic_CV.pdf`
+- `output/pdf/Academic_CV_3_pages.pdf`
+- `stato_dei_lavori.md`
+
+Modifiche:
+
+- registrata l'accettazione di `Entanglement, Relative Facts, and the Meaning of Information in Relational Quantum Mechanics`, di Niccolò Covoni e Marco Sanchioni, per l'`European Journal for Philosophy of Science`;
+- spostato l'articolo dai lavori in review alle pubblicazioni forthcoming nel CV completo e nel CV breve;
+- aggiunta sul sito una sezione `Forthcoming` con il collegamento alla versione accettata depositata su PhilSci-Archive;
+- aggiornata a ottobre 2026 la data riportata nei piè di pagina del sito e dei due CV.
+
+Verifiche eseguite:
+
+- compilati correttamente entrambi i sorgenti LaTeX;
+- confermate 11 pagine per il CV completo e 3 pagine per il CV breve;
+- verificata tramite estrazione testuale la presenza dell'articolo tra le pubblicazioni forthcoming e la sua assenza dai lavori in review;
+- renderizzate e controllate visivamente tutte le pagine dei due PDF, senza sovrapposizioni o testo fuori margine;
+- verificati localmente nell'HTML il nuovo blocco `Forthcoming`, il collegamento alla accepted version e la data di aggiornamento.
 
 ### 2026-10-04
 
