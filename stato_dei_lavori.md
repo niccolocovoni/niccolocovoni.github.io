@@ -41,6 +41,8 @@ Modifiche:
 - registrata l'accettazione di `Entanglement, Relative Facts, and the Meaning of Information in Relational Quantum Mechanics`, di Niccolò Covoni e Marco Sanchioni, per l'`European Journal for Philosophy of Science`;
 - spostato l'articolo dai lavori in review alle pubblicazioni forthcoming nel CV completo e nel CV breve;
 - aggiunta sul sito una sezione `Forthcoming` con il collegamento alla versione accettata depositata su PhilSci-Archive;
+- aggiunta l'edizione Wiley di `Tractatus Quanticus`, forthcoming ad aprile 2027, con ISBN e collegamento alla pagina ufficiale dell'editore;
+- distinta l'edizione italiana Adelphi, mantenuta come under contract, dall'edizione internazionale Wiley;
 - aggiornata a ottobre 2026 la data riportata nei piè di pagina del sito e dei due CV.
 
 Verifiche eseguite:
@@ -48,6 +50,7 @@ Verifiche eseguite:
 - compilati correttamente entrambi i sorgenti LaTeX;
 - confermate 11 pagine per il CV completo e 3 pagine per il CV breve;
 - verificata tramite estrazione testuale la presenza dell'articolo tra le pubblicazioni forthcoming e la sua assenza dai lavori in review;
+- verificata la presenza separata delle edizioni Wiley e Adelphi di `Tractatus Quanticus` nel sito e nei due CV;
 - renderizzate e controllate visivamente tutte le pagine dei due PDF, senza sovrapposizioni o testo fuori margine;
 - verificati localmente nell'HTML il nuovo blocco `Forthcoming`, il collegamento alla accepted version e la data di aggiornamento.
 
